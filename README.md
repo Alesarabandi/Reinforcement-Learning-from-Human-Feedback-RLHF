@@ -16,45 +16,34 @@ The implementation is divided into three main notebooks corresponding to the sta
 
 The first stage involves adapting the base GPT-2 model to the target domain.
 
-* 
 **Objective**: Teach the model the basics of the task through supervised learning.
 
-
-* 
 **Dataset**: Fine-tuned on the **SST-2 (Stanford Sentiment Treebank)** dataset.
 
-
-* **Notebook**: `1-SFT.ipynb`
+**Notebook**: `1-SFT.ipynb`
 
 ### 2. Reward Model (RM) Training
 
 In this stage, a separate model is trained to act as a proxy for human judgment.
 
-* 
 **Objective**: Learn to score the "positivity" of a generated sentence.
 
-
-* 
 **Methodology**: A reward head is added to GPT-2 to output a scalar value representing the sentiment score.
 
-
-* **Notebook**: `2-RM Training.ipynb`
+**Notebook**: `2-RM Training.ipynb`
 
 ### 3. RLHF via Proximal Policy Optimization (PPO)
 
 The final stage uses the Reward Model to guide the fine-tuning of the SFT model through Reinforcement Learning.
 
-* 
 **Objective**: Iteratively optimize the model policy to maximize the reward (positive sentiment).
 
-
-* 
 **Key Technique**: Uses **PPO** and **KL-divergence regularization** to ensure the model remains coherent and doesn't drift too far from the original language distribution.
 
-<img width="815" height="489" alt="Screenshot 2026-03-11 at 14 30 12" src="https://github.com/user-attachments/assets/173f72bb-38b1-4c4c-91e9-3ccbdf0574e4" />
+**Notebook**: `3-RLHF.ipynb`
 
+<img width="815" height="489" alt="Screenshot 2026-03-11 at 14 30 12" src="https://github.com/user-attachments/assets/5058c532-6a64-4cb5-9ec1-2f7208441132" />
 
-* **Notebook**: `3-RLHF.ipynb`
 
 ## 📊 Results
 
