@@ -38,10 +38,10 @@ The final stage uses the Reward Model to guide the fine-tuning of the SFT model 
 
 **Notebook**: `3-RLHF.ipynb`
 
-<div align="center">
-<img width="815" height="489" alt="Screenshot 2026-03-11 at 14 30 12" src="https://github.com/user-attachments/assets/5058c532-6a64-4cb5-9ec1-2f7208441132" />
-  <p><em>Optical Flow</em></p>
-</div>
+<p align="center">
+  <img width="815" height="489" alt="Screenshot 2026-03-11 at 14 30 12" src="https://github.com/user-attachments/assets/5058c532-6a64-4cb5-9ec1-2f7208441132" />
+</p>
+
 
 ## 📊 Results
 
