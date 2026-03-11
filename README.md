@@ -1,7 +1,3 @@
-# Reinforcement-Learning-from-Human-Feedback-RLHF
-
----
-
 # Reinforcement Learning from Human Feedback (RLHF)
 
 ### Using Proximal Policy Optimization (PPO) to Fine-Tune GPT-2 for Sentiment Alignment
@@ -56,8 +52,5 @@ The methodology successfully demonstrates how a policy model can be refined agai
 * `Hugging Face Transformers`
 * `Datasets`
 * `trl` (Transformer Reinforcement Learning library)
-
-- Developed as part of the Knowledge Processing in Intelligent Systems practical seminar at the University of Hamburg
-
-
+---
 * Developed as part of the *Knowledge Processing in Intelligent Systems* practical seminar at the **University of Hamburg**.
