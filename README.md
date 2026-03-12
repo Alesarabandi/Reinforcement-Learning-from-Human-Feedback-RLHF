@@ -55,4 +55,4 @@ The methodology successfully demonstrates how a policy model can be refined agai
 * `Datasets`
 * `trl` (Transformer Reinforcement Learning library)
 ---
-* Developed as part of the *Knowledge Processing in Intelligent Systems* practical seminar at the **University of Hamburg**.
+* Developed as part of the *Knowledge Processing in Intelligent Systems* seminar at the **University of Hamburg**.
